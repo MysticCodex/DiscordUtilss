@@ -16,11 +16,11 @@ pip install -U git+https://github.com/Naman794/DiscordUtils-master-updated
 
 
 ```
-Requires discord.py[voice] so make sure you have all dependencies of it installed.
+
 
 # Example code
 
-### DiscordUtils.Pagination.AutoEmbedPaginator
+### DiscordUtilss.Pagination.AutoEmbedPaginator
 ```python
 @bot.command()
 async def paginate(ctx):
@@ -32,7 +32,7 @@ async def paginate(ctx):
     await paginator.run(embeds)
 ```
 
-### DiscordUtils.Pagination.CustomEmbedPaginator
+### DiscordUtilss.Pagination.CustomEmbedPaginator
 ```python
 @bot.command()
 async def paginate(ctx):
@@ -49,7 +49,7 @@ async def paginate(ctx):
     await paginator.run(embeds)
 ```
 
-### DiscordUtils.InviteTracker
+### DiscordUtilss.InviteTracker
 ```python
 import discord
 from discord.ext import commands
@@ -65,14 +65,14 @@ async def on_member_join(member):
     inviter = await tracker.fetch_inviter(member) # inviter is the member who invited
 ```
 
-### DiscordUtils.Music
+### DiscordUtilss.Music
 ```python
 import discord
 from discord.ext import commands
-import DiscordUtils
+import DiscordUtilss
 
 bot = commands.AutoShardedBot(command_prefix=">")
-music = DiscordUtils.Music()
+music = DiscordUtilss.Music()
 
 @bot.command()
 async def join(ctx):
@@ -158,11 +158,11 @@ async def remove(ctx, index):
 For further information please read the docs
 
 # Links
-**[Documentation](https://docs.discordutils.gq)**
 
-**[Github](https://github.discordutils.gq)**
+
+**[Github](https://github.discordutilss.gq)**
 
 # Support
-**__Please make sure that you are on the latest version of [DiscordUtils](https://pypi.org/project/DiscordUtils) and [youtube_dl](https://pypi.org/project/youtube_dl) before contacting for support__**
+**__will be out soon!_**
 
-DM/PM `toxic_recker#2795` on Discord for support
+
